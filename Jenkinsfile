@@ -4,6 +4,11 @@ pipeline {
             image 'cypress/browsers'
         }
      }
+
+    parameters {
+        choice(name:'ENV',choices:['dev','staging','prodction'],description:'Environement')
+        choice(name:'TEST_TYPE',choices:['regression','smoke','sanity'],description:'testing')
+    }
     
     stages {
         stage('Install dependencies') {
@@ -11,7 +16,15 @@ pipeline {
                 sh 'npm ci'
             }
         }
-        
+
+        stage('Run Cypress Tests') {
+            steps {
+                
+                sh "chmod +x ./bashs/*.sh"
+                sh "./bashs/${params.TEST_TYPE}.sh"
+
+             }
+        }
         
         stage('Run Cypress Tests') {
             steps {

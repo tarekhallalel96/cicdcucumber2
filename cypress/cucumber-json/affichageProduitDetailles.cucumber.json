@@ -2,47 +2,77 @@
   {
     "keyword": "Feature",
     "name": "Affichage du detaille produits",
-    "line": 1,
+    "line": 2,
     "id": "affichage-du-detaille-produits",
-    "tags": [],
+    "tags": [
+      {
+        "name": "@tc-001",
+        "line": 1
+      },
+      {
+        "name": "@parcours-01",
+        "line": 1
+      },
+      {
+        "name": "@regression",
+        "line": 1
+      }
+    ],
     "uri": "affichageProduitDetailles.feature",
     "elements": [
       {
         "id": "affichage-du-detaille-produits;vérification-du-detailles-des-produits",
         "keyword": "Scenario",
-        "line": 7,
+        "line": 9,
         "name": "Vérification du detailles des produits",
-        "tags": [],
+        "tags": [
+          {
+            "name": "@tc-001",
+            "line": 1
+          },
+          {
+            "name": "@parcours-01",
+            "line": 1
+          },
+          {
+            "name": "@regression",
+            "line": 1
+          },
+          {
+            "name": "@verfier-produit",
+            "line": 8
+          }
+        ],
         "type": "scenario",
         "steps": [
           {
             "arguments": [],
             "keyword": "Given ",
-            "line": 4,
+            "line": 5,
             "name": "je suis sur la page produits",
             "result": {
               "status": "passed",
-              "duration": 1523000000
+              "duration": 1570000000
             }
           },
           {
             "arguments": [],
             "keyword": "When ",
-            "line": 5,
+            "line": 6,
             "name": "je clique sur un produit \"Sauce Labs Backpack\"",
             "result": {
               "status": "passed",
-              "duration": 194000000
+              "duration": 186000000
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 8,
+            "line": 10,
             "name": "je retrouve le produit avec sa description son prix son image dans le detaille prodiot",
             "result": {
               "status": "passed",
-              "duration": 37000000
+              "duration": 34000000
             }
           }
         ]
@@ -50,66 +80,63 @@
       {
         "id": "affichage-du-detaille-produits;vérification-du-button-add-card",
         "keyword": "Scenario",
-        "line": 10,
+        "line": 13,
         "name": "Vérification du button add card",
-        "tags": [],
+        "tags": [
+          {
+            "name": "@tc-001",
+            "line": 1
+          },
+          {
+            "name": "@parcours-01",
+            "line": 1
+          },
+          {
+            "name": "@regression",
+            "line": 1
+          },
+          {
+            "name": "@add-to-card",
+            "line": 12
+          }
+        ],
         "type": "scenario",
         "steps": [
           {
             "arguments": [],
             "keyword": "Given ",
-            "line": 4,
+            "line": 5,
             "name": "je suis sur la page produits",
             "result": {
               "status": "passed",
-              "duration": 1061000000
+              "duration": 1004000000
             }
           },
           {
             "arguments": [],
             "keyword": "When ",
-            "line": 5,
+            "line": 6,
             "name": "je clique sur un produit \"Sauce Labs Backpack\"",
             "result": {
               "status": "passed",
-              "duration": 196000000
+              "duration": 182000000
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 11,
+            "line": 14,
             "name": "je retrouve le produit avec sa description son prix son image dans le detaille prodiot",
             "result": {
               "status": "passed",
-              "duration": 31000000
+              "duration": 29000000
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
-            "line": 12,
+            "line": 15,
             "name": "je recupere la valeur actuel de cart badge",
-            "result": {
-              "status": "passed",
-              "duration": 11000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 13,
-            "name": "je clique sur add to cart",
-            "result": {
-              "status": "passed",
-              "duration": 93000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 14,
-            "name": "le nombre du cart badge increment",
             "result": {
               "status": "passed",
               "duration": 10000000
@@ -118,7 +145,27 @@
           {
             "arguments": [],
             "keyword": "And ",
-            "line": 15,
+            "line": 16,
+            "name": "je clique sur add to cart",
+            "result": {
+              "status": "passed",
+              "duration": 87000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 17,
+            "name": "le nombre du cart badge increment",
+            "result": {
+              "status": "passed",
+              "duration": 11000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 18,
             "name": "le button add cart  devient remove",
             "result": {
               "status": "passed",
@@ -128,7 +175,7 @@
           {
             "arguments": [],
             "keyword": "And ",
-            "line": 16,
+            "line": 19,
             "name": "je recupere la valeur actuel de cart badge",
             "result": {
               "status": "passed",
@@ -138,27 +185,27 @@
           {
             "arguments": [],
             "keyword": "And ",
-            "line": 17,
+            "line": 20,
             "name": "je clique sur le button remove",
             "result": {
               "status": "passed",
-              "duration": 82000000
+              "duration": 83000000
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
-            "line": 18,
+            "line": 21,
             "name": "le nombre du cart badge decrement",
             "result": {
               "status": "passed",
-              "duration": 9000000
+              "duration": 10000000
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
-            "line": 19,
+            "line": 22,
             "name": "le button remove  devient add ton cart",
             "result": {
               "status": "passed",
@@ -170,59 +217,76 @@
       {
         "id": "affichage-du-detaille-produits;vérification-du-button-retour-au-inventaire",
         "keyword": "Scenario",
-        "line": 22,
+        "line": 25,
         "name": "Vérification du button retour au inventaire",
-        "tags": [],
+        "tags": [
+          {
+            "name": "@tc-001",
+            "line": 1
+          },
+          {
+            "name": "@parcours-01",
+            "line": 1
+          },
+          {
+            "name": "@regression",
+            "line": 1
+          },
+          {
+            "name": "@back-inventaire",
+            "line": 24
+          }
+        ],
         "type": "scenario",
         "steps": [
           {
             "arguments": [],
             "keyword": "Given ",
-            "line": 4,
+            "line": 5,
             "name": "je suis sur la page produits",
             "result": {
               "status": "passed",
-              "duration": 915000000
+              "duration": 887000000
             }
           },
           {
             "arguments": [],
             "keyword": "When ",
-            "line": 5,
+            "line": 6,
             "name": "je clique sur un produit \"Sauce Labs Backpack\"",
             "result": {
               "status": "passed",
-              "duration": 165000000
+              "duration": 172000000
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 23,
+            "line": 26,
             "name": "je retrouve le produit avec sa description son prix son image dans le detaille prodiot",
             "result": {
               "status": "passed",
-              "duration": 28000000
+              "duration": 26000000
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
-            "line": 24,
+            "line": 27,
             "name": "je clique sur back to product",
             "result": {
               "status": "passed",
-              "duration": 91000000
+              "duration": 89000000
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
-            "line": 25,
+            "line": 28,
             "name": "la page daccueil saffiche",
             "result": {
               "status": "passed",
-              "duration": 7000000
+              "duration": 8000000
             }
           }
         ]

@@ -2,47 +2,58 @@
   {
     "keyword": "Feature",
     "name": "Tri des produits par prix sur la page d'accueil",
-    "line": 1,
+    "line": 2,
     "id": "tri-des-produits-par-prix-sur-la-page-d'accueil",
-    "tags": [],
+    "tags": [
+      {
+        "name": "@tc-003",
+        "line": 1
+      }
+    ],
     "uri": "tri_hilo_lohi.feature",
     "elements": [
       {
         "id": "tri-des-produits-par-prix-sur-la-page-d'accueil;l'utilisateur-trie-les-produits-par-prix-croissant",
         "keyword": "Scenario",
-        "line": 3,
+        "line": 5,
         "name": "L'utilisateur trie les produits par prix croissant",
-        "tags": [],
+        "tags": [
+          {
+            "name": "@tc-003",
+            "line": 1
+          },
+          {
+            "name": "@tricroissant",
+            "line": 4
+          }
+        ],
         "type": "scenario",
         "steps": [
           {
             "arguments": [],
             "keyword": "Given ",
-            "line": 4,
+            "line": 6,
             "name": "L utilisateur est sur la page d accueil",
             "result": {
-              "status": "passed",
-              "duration": 1322000000
+              "status": "skipped"
             }
           },
           {
             "arguments": [],
             "keyword": "When ",
-            "line": 5,
+            "line": 7,
             "name": "Il sélectionne \"lohi\" dans le menu de tri",
             "result": {
-              "status": "passed",
-              "duration": 143000000
+              "status": "skipped"
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 6,
+            "line": 8,
             "name": "Les produits sont tries du moins cher au plus cher",
             "result": {
-              "status": "passed",
-              "duration": 18000000
+              "status": "skipped"
             }
           }
         ]
@@ -50,39 +61,45 @@
       {
         "id": "tri-des-produits-par-prix-sur-la-page-d'accueil;l'utilisateur-trie-les-produits-par-prix-décroissant",
         "keyword": "Scenario",
-        "line": 8,
+        "line": 11,
         "name": "L'utilisateur trie les produits par prix décroissant",
-        "tags": [],
+        "tags": [
+          {
+            "name": "@tc-003",
+            "line": 1
+          },
+          {
+            "name": "@tridecroissant",
+            "line": 10
+          }
+        ],
         "type": "scenario",
         "steps": [
           {
             "arguments": [],
             "keyword": "Given ",
-            "line": 9,
+            "line": 12,
             "name": "L utilisateur est sur la page d accueil",
             "result": {
-              "status": "passed",
-              "duration": 1011000000
+              "status": "skipped"
             }
           },
           {
             "arguments": [],
             "keyword": "When ",
-            "line": 10,
+            "line": 13,
             "name": "Il sélectionne \"hilo\" dans le menu de tri",
             "result": {
-              "status": "passed",
-              "duration": 143000000
+              "status": "skipped"
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 11,
+            "line": 14,
             "name": "Les produits sont tries du plus cher au moins cher",
             "result": {
-              "status": "passed",
-              "duration": 23000000
+              "status": "skipped"
             }
           }
         ]

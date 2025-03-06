@@ -6,7 +6,15 @@
     "id": "affichage-des-produits-dans-le-panier",
     "tags": [
       {
-        "name": "@tc-007",
+        "name": "@tc-002",
+        "line": 1
+      },
+      {
+        "name": "@parcours2",
+        "line": 1
+      },
+      {
+        "name": "@regression",
         "line": 1
       }
     ],
@@ -15,12 +23,24 @@
       {
         "id": "affichage-des-produits-dans-le-panier;verifier-que-les-produits-ajoutés-contienent-une-description",
         "keyword": "Scenario",
-        "line": 9,
+        "line": 10,
         "name": "verifier que les produits ajoutés contienent une description",
         "tags": [
           {
-            "name": "@tc-007",
+            "name": "@tc-002",
             "line": 1
+          },
+          {
+            "name": "@parcours2",
+            "line": 1
+          },
+          {
+            "name": "@regression",
+            "line": 1
+          },
+          {
+            "name": "@description",
+            "line": 9
           }
         ],
         "type": "scenario",
@@ -31,8 +51,7 @@
             "line": 5,
             "name": "je suis sur la page produits",
             "result": {
-              "status": "passed",
-              "duration": 1408000000
+              "status": "skipped"
             }
           },
           {
@@ -41,8 +60,7 @@
             "line": 6,
             "name": "je mets dans le panier les produits \"Sauce Labs Backpack, Sauce Labs Bike Light\"",
             "result": {
-              "status": "passed",
-              "duration": 314000000
+              "status": "skipped"
             }
           },
           {
@@ -51,18 +69,16 @@
             "line": 7,
             "name": "je clique sur le bouton panier",
             "result": {
-              "status": "passed",
-              "duration": 88000000
+              "status": "skipped"
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 10,
+            "line": 11,
             "name": "je retrouve le produit avec sa description dans le panier",
             "result": {
-              "status": "passed",
-              "duration": 29000000
+              "status": "skipped"
             }
           }
         ]
@@ -70,12 +86,24 @@
       {
         "id": "affichage-des-produits-dans-le-panier;verifier-que-les-produits-ajoutés-contienent-un-bouton-remove",
         "keyword": "Scenario",
-        "line": 12,
+        "line": 14,
         "name": "verifier que les produits ajoutés contienent un bouton Remove",
         "tags": [
           {
-            "name": "@tc-007",
+            "name": "@tc-002",
             "line": 1
+          },
+          {
+            "name": "@parcours2",
+            "line": 1
+          },
+          {
+            "name": "@regression",
+            "line": 1
+          },
+          {
+            "name": "@remove",
+            "line": 13
           }
         ],
         "type": "scenario",
@@ -86,8 +114,7 @@
             "line": 5,
             "name": "je suis sur la page produits",
             "result": {
-              "status": "passed",
-              "duration": 1114000000
+              "status": "skipped"
             }
           },
           {
@@ -96,8 +123,7 @@
             "line": 6,
             "name": "je mets dans le panier les produits \"Sauce Labs Backpack, Sauce Labs Bike Light\"",
             "result": {
-              "status": "passed",
-              "duration": 344000000
+              "status": "skipped"
             }
           },
           {
@@ -106,18 +132,16 @@
             "line": 7,
             "name": "je clique sur le bouton panier",
             "result": {
-              "status": "passed",
-              "duration": 83000000
+              "status": "skipped"
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 13,
+            "line": 15,
             "name": "le produit contient un bouton Remove",
             "result": {
-              "status": "passed",
-              "duration": 11000000
+              "status": "skipped"
             }
           }
         ]
@@ -125,12 +149,24 @@
       {
         "id": "affichage-des-produits-dans-le-panier;verifier-que-les-produits-ajoutés-contienent-des-prix",
         "keyword": "Scenario",
-        "line": 15,
+        "line": 18,
         "name": "verifier que les produits ajoutés contienent des prix",
         "tags": [
           {
-            "name": "@tc-007",
+            "name": "@tc-002",
             "line": 1
+          },
+          {
+            "name": "@parcours2",
+            "line": 1
+          },
+          {
+            "name": "@regression",
+            "line": 1
+          },
+          {
+            "name": "@price",
+            "line": 17
           }
         ],
         "type": "scenario",
@@ -141,8 +177,7 @@
             "line": 5,
             "name": "je suis sur la page produits",
             "result": {
-              "status": "passed",
-              "duration": 990000000
+              "status": "skipped"
             }
           },
           {
@@ -151,8 +186,7 @@
             "line": 6,
             "name": "je mets dans le panier les produits \"Sauce Labs Backpack, Sauce Labs Bike Light\"",
             "result": {
-              "status": "passed",
-              "duration": 315000000
+              "status": "skipped"
             }
           },
           {
@@ -161,18 +195,16 @@
             "line": 7,
             "name": "je clique sur le bouton panier",
             "result": {
-              "status": "passed",
-              "duration": 91000000
+              "status": "skipped"
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 16,
+            "line": 19,
             "name": "le produit contient un prix",
             "result": {
-              "status": "passed",
-              "duration": 79000000
+              "status": "skipped"
             }
           }
         ]

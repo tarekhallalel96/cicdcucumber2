@@ -1,0 +1,1 @@
+npx cypress run --env TAGS="@login or @parcours-01"
