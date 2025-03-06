@@ -1,0 +1,92 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Tri des produits par prix sur la page d'accueil",
+    "line": 1,
+    "id": "tri-des-produits-par-prix-sur-la-page-d'accueil",
+    "tags": [],
+    "uri": "tri_hilo_lohi.feature",
+    "elements": [
+      {
+        "id": "tri-des-produits-par-prix-sur-la-page-d'accueil;l'utilisateur-trie-les-produits-par-prix-croissant",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "L'utilisateur trie les produits par prix croissant",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "L utilisateur est sur la page d accueil",
+            "result": {
+              "status": "passed",
+              "duration": 1322000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "Il sélectionne \"lohi\" dans le menu de tri",
+            "result": {
+              "status": "passed",
+              "duration": 143000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "Les produits sont tries du moins cher au plus cher",
+            "result": {
+              "status": "passed",
+              "duration": 18000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "tri-des-produits-par-prix-sur-la-page-d'accueil;l'utilisateur-trie-les-produits-par-prix-décroissant",
+        "keyword": "Scenario",
+        "line": 8,
+        "name": "L'utilisateur trie les produits par prix décroissant",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 9,
+            "name": "L utilisateur est sur la page d accueil",
+            "result": {
+              "status": "passed",
+              "duration": 1011000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 10,
+            "name": "Il sélectionne \"hilo\" dans le menu de tri",
+            "result": {
+              "status": "passed",
+              "duration": 143000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "Les produits sont tries du plus cher au moins cher",
+            "result": {
+              "status": "passed",
+              "duration": 23000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

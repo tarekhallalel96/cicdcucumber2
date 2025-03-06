@@ -1,0 +1,182 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Affichage des produits dans le panier",
+    "line": 2,
+    "id": "affichage-des-produits-dans-le-panier",
+    "tags": [
+      {
+        "name": "@tc-007",
+        "line": 1
+      }
+    ],
+    "uri": "affichageProduitsPanier.feature",
+    "elements": [
+      {
+        "id": "affichage-des-produits-dans-le-panier;verifier-que-les-produits-ajoutés-contienent-une-description",
+        "keyword": "Scenario",
+        "line": 9,
+        "name": "verifier que les produits ajoutés contienent une description",
+        "tags": [
+          {
+            "name": "@tc-007",
+            "line": 1
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "je suis sur la page produits",
+            "result": {
+              "status": "passed",
+              "duration": 1408000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "je mets dans le panier les produits \"Sauce Labs Backpack, Sauce Labs Bike Light\"",
+            "result": {
+              "status": "passed",
+              "duration": 314000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "je clique sur le bouton panier",
+            "result": {
+              "status": "passed",
+              "duration": 88000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "je retrouve le produit avec sa description dans le panier",
+            "result": {
+              "status": "passed",
+              "duration": 29000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "affichage-des-produits-dans-le-panier;verifier-que-les-produits-ajoutés-contienent-un-bouton-remove",
+        "keyword": "Scenario",
+        "line": 12,
+        "name": "verifier que les produits ajoutés contienent un bouton Remove",
+        "tags": [
+          {
+            "name": "@tc-007",
+            "line": 1
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "je suis sur la page produits",
+            "result": {
+              "status": "passed",
+              "duration": 1114000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "je mets dans le panier les produits \"Sauce Labs Backpack, Sauce Labs Bike Light\"",
+            "result": {
+              "status": "passed",
+              "duration": 344000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "je clique sur le bouton panier",
+            "result": {
+              "status": "passed",
+              "duration": 83000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "le produit contient un bouton Remove",
+            "result": {
+              "status": "passed",
+              "duration": 11000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "affichage-des-produits-dans-le-panier;verifier-que-les-produits-ajoutés-contienent-des-prix",
+        "keyword": "Scenario",
+        "line": 15,
+        "name": "verifier que les produits ajoutés contienent des prix",
+        "tags": [
+          {
+            "name": "@tc-007",
+            "line": 1
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "je suis sur la page produits",
+            "result": {
+              "status": "passed",
+              "duration": 990000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "je mets dans le panier les produits \"Sauce Labs Backpack, Sauce Labs Bike Light\"",
+            "result": {
+              "status": "passed",
+              "duration": 315000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "je clique sur le bouton panier",
+            "result": {
+              "status": "passed",
+              "duration": 91000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 16,
+            "name": "le produit contient un prix",
+            "result": {
+              "status": "passed",
+              "duration": 79000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
